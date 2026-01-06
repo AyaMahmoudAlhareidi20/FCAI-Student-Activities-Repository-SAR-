@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="register">
+
+    
+    <header>         <!-- start header-->
+
+    
+        <a href="https://rst.edu.eg/" target="_blank"><img  class="logo" src="Images/logo.png" alt="Logo" ></a>
+                                 <!--navbar-->
+           <nav>
+   
+               <ul>
+                   <li><a href="home.html">Home</a></li>
+                   <li><a href="register.html">Register</a></li>
+                   <li><a href="booking.html">Booking an event </a></li>
+                   <li><a href="history.html">History</a></li>
+                   <li><a href="calender.html">Calender</a></li>
+                   <li><a href="contactus.html">Contact us</a></li>
+               </ul>
+           </nav>
+   
+     </header>
+    
+     <div id="registermain">
+           <div class="intro">
+
+             <h1>Register to FCAI SAR</h1>
+             <p>Create an account to manage and join student activities.</p>
+            </div>
+
+            <div class="myform">
+
+               <form id="registerForm">
+           
+                  <label for="username">Username</label>
+                  <input type="text" name="username" placeholder="username" required >
+            
+                  <label for="email">Email</label>
+                  <input type="email" name="email"  placeholder="email" >
+            
+                  <label for="id">Student Id</label>
+                  <input type="number" name="id"  placeholder="ID" required>
+            
+                  <label for="password">Password</label>
+                  <input type="password" name="password"  placeholder="password"  required>
+            
+                  
+                  <label for="department">Department</label>
+
+                  <select id="eventType" name="eventType" required>
+
+                  <option value=""> Select Department</option>
+                  <option value="Faculty of Computers & Artificial Intelligence">Faculty of Computers & Artificial Intelligence</option>
+                  <option value="Faculty of Dentistry">Faculty of Dentistry</option>
+                  <option value="Faculty of Physical Therapy">Faculty of Physical Therapy</option>
+                  <option value="Faculty of Engineering">Faculty of Engineering</option>
+                  <option value="Faculty of Business Administration">Faculty of Business Administration</option>
+                  <option value="Faculty of Nursing">Faculty of Nursing</option>
+                  <option value="Other">Other</option>
+
+                  </select>
+            
+                  <label for="gender">Gender :</label>
+                  <br>
+                  male<input type="radio" name="gender" value="male">
+                  Female<input type="radio" name="gender" value="Female">
+                  <br><br>
+                  <button type="submit">Submit</button>
+                  <button type="reset">Reset</button>
+
+
+                </form>
+           </div>
+
+        </div>
+     <footer>
+        <div class="social">
+            <p>AL_Ryada University For Science And Technology</p>
+
+            <a href="https://www.facebook.com/Alryada.Univerity/" target="_blank"> 
+                <img src="Images/1.png" alt="facebook">
+            </a>
+
+            <a href="https://www.instagram.com/p/C9eo_5UC69W/" target="_blank">
+                <img src="Images/7.png" alt="instagram">
+            </a>
+
+            <a href="https://www.youtube.com/channel/UCLE3susZZNOcNlFIfK_YtHw" target="_blank">
+                <img src="Images/3.png" alt="youtube">
+            </a>
+
+            <a href="https://www.linkedin.com/company/alryada-university/posts/?feedView=all" target="_blank">
+                <img src="Images/5.png" alt="linkedin">
+            </a>
+
+        </div>
+        <div class="phone">
+            <img src="Images/9.png" alt="call">
+            <h1>16506</h1>
+
+        </div>
+     </footer>
+
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
