@@ -37,7 +37,7 @@ SAR centralizes student activities in one system, making it easier for students 
 
 ## How to Run the Project
 1. Download or clone the repository:
-
+https://github.com/AyaMahmoudAlhareidi20/FCAI-Student-Activities-Repository-SAR-
 2. 2. Open the project folder.
 3. Run the application by opening `index.html` in any modern web browser.
 
